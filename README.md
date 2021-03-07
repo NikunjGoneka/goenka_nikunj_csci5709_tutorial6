@@ -2,8 +2,8 @@
 
 * Date Created: 06-03-2021
 * Last Modification Date: 06-03-2021
-* Website URL: https://nikunj-goenka-tutorial4.herokuapp.com/
-* Repository URL: https://github.com/NikunjGoneka/Goenka-Nikunj-csci5709-tutorial4
+* Website URL: https://nikunj-goenka-tutorial-6.herokuapp.com
+* Repository URL: https://github.com/NikunjGoneka/goenka_nikunj_csci5709_tutorial6
 
 ## Authors
 * [Nikunj Goenka](Nikunj.Goenka@dal.ca)
@@ -11,20 +11,20 @@
 ## URL List To view Backend funtionality
 
 * URL for list of all users (GET method)
-	http://localhost:3000/user/
+	https://nikunj-goenka-tutorial-6.herokuapp.com/user/
 
 * URL for specific user using path parameter (GET Method)
-	http://localhost:3000/user/specific/user2
+	https://nikunj-goenka-tutorial-6.herokuapp.com/user/specific/user2
 
 * URL for specific user using body (GET Method)
-	http://localhost:3000/user/specific
+	https://nikunj-goenka-tutorial-6.herokuapp.com/user/specific
 	BODY:
 		{
     			"username": "user2"
 		}
 		
 * URL add new user (POST Method)
-	http://localhost:3000/user/addUser
+	https://nikunj-goenka-tutorial-6.herokuapp.com/user/addUser
 	BODY:
 		{
    			"uuid": "SOME UNIQUE ID",
@@ -33,7 +33,7 @@
 		}
 
 * URL update username (PUT Method)
-	http://localhost:3000/user/updateUser
+	https://nikunj-goenka-tutorial-6.herokuapp.com/user/updateUser
 	BODY:
 		{
    			"username": "user2",
